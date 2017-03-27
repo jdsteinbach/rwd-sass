@@ -1,0 +1,38 @@
+{
+  "name": "gdi-slides",
+  "version": "1.0.0",
+  "description": "Reveal.js deck for GDI Denver/Boulder Sass classes",
+  "main": "Gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdsteinbach/sassconf"
+  },
+  "bugs": {
+    "url": "https://github.com/jdsteinbach/sassconf/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Steinbach",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.0.2",
+    "glob": "^5.0.14",
+    "gulp": "^3.9.0",
+    "gulp-haml": "^0.1.5",
+    "gulp-markdown": "^1.0.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-reveal": "https://github.com/jdsteinbach/gulp-reveal",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tap": "^0.1.3",
+    "markdown": "^0.5.0",
+    "postcss-property-sorter": "^0.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.3"
+  }
+}
